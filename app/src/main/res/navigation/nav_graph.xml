@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/distributionFragment">
+
+    <fragment
+        android:id="@+id/distributionFragment"
+        tools:layout="@layout/fragment_distribution"
+        android:name="com.example.spotifycopy.DistributionFragment">
+        <action
+            android:id="@+id/action_distributionFragment_to_authFragment"
+            app:destination="@id/authFragment"/>
+        <action
+            android:id="@+id/action_distributionFragment_to_regFragment"
+            app:destination="@id/regFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/authFragment"
+        tools:layout="@layout/fragment_auth"
+        android:name="com.example.spotifycopy.AuthFragment">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/regFragment"
+        tools:layout="@layout/fragment_reg"
+        android:name="com.example.spotifycopy.RegFragment">
+
+    </fragment>
+
+</navigation>

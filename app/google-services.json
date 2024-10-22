@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "953651529959",
+    "project_id": "to-do-list-15564",
+    "storage_bucket": "to-do-list-15564.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953651529959:android:0071dc781e2e1e18997a42",
+        "android_client_info": {
+          "package_name": "com.example.spotifycopy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbvQ-npcpLGkF9cLptq8kz-I6fhLzwbAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953651529959:android:42afbe252fb3e361997a42",
+        "android_client_info": {
+          "package_name": "com.example.to_dolist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbvQ-npcpLGkF9cLptq8kz-I6fhLzwbAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

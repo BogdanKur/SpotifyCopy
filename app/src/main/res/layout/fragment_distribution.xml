@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackAmber"
+    android:orientation="vertical"
+    tools:context=".DistributionFragment">
+
+    <Button
+        android:id="@+id/btnAuthToAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_auth_to_account_drawable"
+        android:textSize="23sp"
+        android:textAllCaps="false"
+        android:textColor="@color/transportOrange"
+        android:text="@string/btnAuthToAccount"
+        android:layout_marginTop="200dp"
+        android:layout_marginHorizontal="60dp"/>
+
+    <Button
+        android:id="@+id/btnRegAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_auth_to_account_drawable"
+        android:textSize="23sp"
+        android:textAllCaps="false"
+        android:textColor="@color/transportOrange"
+        android:text="@string/btnRegAccount"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="60dp"/>
+
+</LinearLayout>
