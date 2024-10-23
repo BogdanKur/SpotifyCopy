@@ -4,4 +4,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="btnAuthToAccount">Войти</string>
     <string name="btnRegAccount">Зарегистрироваться</string>
+    <string name="etRegAuthEnterEmail">Введите почту</string>
+    <string name="etRegAuthEnterPassword">Введите пароль</string>
 </resources>

@@ -21,13 +21,24 @@
         android:id="@+id/authFragment"
         tools:layout="@layout/fragment_auth"
         android:name="com.example.spotifycopy.AuthFragment">
-
+        <action
+            android:id="@+id/action_authFragment_to_mainFragment"
+            app:destination="@id/mainFragment"/>
     </fragment>
 
     <fragment
         android:id="@+id/regFragment"
         tools:layout="@layout/fragment_reg"
         android:name="com.example.spotifycopy.RegFragment">
+        <action
+            android:id="@+id/action_regFragment_to_distributionFragment"
+            app:destination="@id/distributionFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainFragment"
+        tools:layout="@layout/fragment_main"
+        android:name="com.example.spotifycopy.MainFragment">
 
     </fragment>
 

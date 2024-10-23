@@ -9,11 +9,11 @@
     tools:context=".DistributionFragment">
 
     <Button
-        android:id="@+id/btnAuthToAccount"
+        android:id="@+id/btnDistributeAuthToAccount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/btn_auth_to_account_drawable"
-        android:textSize="23sp"
+        android:textSize="19sp"
         android:textAllCaps="false"
         android:textColor="@color/transportOrange"
         android:text="@string/btnAuthToAccount"
@@ -21,11 +21,11 @@
         android:layout_marginHorizontal="60dp"/>
 
     <Button
-        android:id="@+id/btnRegAccount"
+        android:id="@+id/btnDistributeRegAccount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/btn_auth_to_account_drawable"
-        android:textSize="23sp"
+        android:textSize="19sp"
         android:textAllCaps="false"
         android:textColor="@color/transportOrange"
         android:text="@string/btnRegAccount"

@@ -1,8 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".AuthFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.spotifycopy.AuthViewModel" />
+    </data>
 
-</FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blackAmber"
+        tools:context=".AuthFragment">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="?android:actionBarSize"
+            android:id="@+id/toolbar"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="35dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextColor="@color/white"/>
+        <EditText
+            android:text="@={viewModel.email}"
+            android:id="@+id/etAuthEnterEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etRegAuthEnterEmail"
+            android:textColorHint="@color/startsTextColor"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/et_reg_auth_background"/>
+        <EditText
+            android:text="@={viewModel.password}"
+            android:id="@+id/etAuthEnterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etRegAuthEnterPassword"
+            android:textColorHint="@color/startsTextColor"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_marginHorizontal="60dp"
+            android:background="@drawable/et_reg_auth_background"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:id="@+id/btnAuthAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_auth_to_account_drawable"
+            android:textSize="19sp"
+            android:textAllCaps="false"
+            android:textColor="@color/transportOrange"
+            android:text="@string/btnAuthToAccount"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+</layout>

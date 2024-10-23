@@ -5,4 +5,5 @@
     <color name="blackAmber">#0B0B0B</color>
     <color name="yandexColor">#FCCA00</color>
     <color name="transportOrange">#FC3F1D</color>
+    <color name="startsTextColor">#808080</color>
 </resources>

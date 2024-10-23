@@ -25,11 +25,11 @@ class DistributionFragment : Fragment() {
         val view = binding.root
         val navController = findNavController()
 
-        binding.btnAuthToAccount.setOnClickListener {
+        binding.btnDistributeAuthToAccount.setOnClickListener {
             navController.navigate(R.id.action_distributionFragment_to_authFragment)
         }
 
-        binding.btnRegAccount.setOnClickListener {
+        binding.btnDistributeRegAccount.setOnClickListener {
             navController.navigate(R.id.action_distributionFragment_to_regFragment)
         }
 
