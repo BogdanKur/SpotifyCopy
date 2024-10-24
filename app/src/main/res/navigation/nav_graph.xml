@@ -42,4 +42,9 @@
 
     </fragment>
 
+    <action android:id="@+id/action_mainActivity_to_distributionFragment"
+        app:destination="@id/distributionFragment"/>
+    <action android:id="@+id/action_mainActivity_to_mainFragment"
+        app:destination="@id/mainFragment"/>
+
 </navigation>

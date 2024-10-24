@@ -47,6 +47,15 @@
                         android:layout_gravity="start"
                         android:src="@drawable/icon_profile"
                         android:background="@android:color/transparent"/>
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:text="Моя волна"
+                        android:background="@android:color/transparent"/>
                 </FrameLayout>
                 <com.google.android.material.appbar.MaterialToolbar
                     android:layout_width="match_parent"
@@ -55,6 +64,18 @@
                     android:background="@android:color/transparent"/>
             </com.google.android.material.appbar.CollapsingToolbarLayout>
         </com.google.android.material.appbar.AppBarLayout>
-        
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        </androidx.core.widget.NestedScrollView>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:id="@+id/bottomNav"
+            app:menu="@menu/menu_toolbar" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

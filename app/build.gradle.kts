@@ -43,6 +43,7 @@ android {
 }
 
 dependencies {
+    implementation (libs.yandexAuthSdk)
     implementation(libs.firebase.database)
     implementation(libs.firebase.bom)
     implementation (libs.firebase.storage.ktx)
@@ -54,6 +55,7 @@ dependencies {
     implementation(libs.firebase.crashlytics.buildtools)
 
     implementation (libs.glide)
+    implementation(libs.androidx.runtime.android)
     kapt ("com.github.bumptech.glide:compiler:4.12.0")
 
     implementation("androidx.recyclerview:recyclerview:1.3.2")

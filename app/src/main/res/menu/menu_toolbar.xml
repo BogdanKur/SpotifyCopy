@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/icon_all_tracks_select"
+        android:title="" />
+    <item
+        android:id="@+id/podcastsFragment"
+        android:icon="@drawable/icon_podcasts"
+        android:title="" />
+    <item
+        android:id="@+id/likedFragment"
+        android:icon="@drawable/icon_liked"
+        android:title="" />
+</menu>
